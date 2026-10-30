@@ -1,0 +1,15 @@
+# 데이터 — 원본은 저장소에 올리지 않는다
+data/
+
+# 비밀 설정
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# Vercel 로컬 연결 정보
+.vercel/
+
+# macOS
+.DS_Store
