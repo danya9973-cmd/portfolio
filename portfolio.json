@@ -5,7 +5,7 @@
   "cards": [
     {"week": 1, "title": "감 테스트", "line": "공개데이터로 만든 숫자 맞추기",
      "judgment": "정답은 원본에서 계산해 넣고, 하나는 엑셀로 직접 세어 맞췄다. 같은 기록도 출처마다 달라서 결과 화면에 그 이유를 적었다",
-     "ai": ["Claude Code", "v0", "Perplexity"], "url": "https://gam-test-theta.vercel.app", "img": "img/w1.jpg"}
+     "ai": ["Claude Code", "v0", "Perplexity"], "url": "https://gam-test-theta.vercel.app", "img": "img/W1_감.jpg"}
   ],
   "proposal": null
 }
