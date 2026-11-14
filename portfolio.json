@@ -8,7 +8,10 @@
      "ai": ["Claude Code", "v0", "Perplexity"], "url": "https://gam-test-theta.vercel.app", "img": "img/W1_감.jpg"},
     {"week": 2, "title": "인터넷 쇼핑몰 고객 요청 분류기 — 빈 폴더에서", "line": "고객 요청 한 줄을 넣으면 칸 · 긴급도 · 감정 · 이유가 나옵니다. 문장과 정답은 직접 만들었습니다",
      "judgment": "고객이탈을 가장 나쁜 실수로 정했다. 부정적 감정을 가장 위험한 요소로 판단함.",
-     "ai": ["Claude Code", "Gemini"], "url": "https://my-classifier-nine.vercel.app/", "img": ""}
+     "ai": ["Claude Code", "Gemini"], "url": "https://my-classifier-nine.vercel.app/", "img": "img/W2_분류기.jpg"},
+    {"week": 3, "title": "엑셀 정리기", "line": "엉망인 엑셀 · CSV를 넣으면 증상 진단 · 정리본 · 바꾼 기록이 나옵니다. 파일은 브라우저를 떠나지 않습니다",
+     "judgment": "동료에게 건네는 정리기에서 상담시간은 «180을 넘으면 초»로 두었다. 이 파일에 딱 맞는 80은 다음 달에 80분이 넘는 상담이 오면 말없이 틀린다. 그 대신 3분 이하 전화 472줄을 놓친다는 것을 설명서에 숫자로 적었다",
+     "ai": ["Claude Code", "Google Colab"], "url": "https://cleaner-3gor.vercel.app", "img": ""}
   ],
   "proposal": null
 }
