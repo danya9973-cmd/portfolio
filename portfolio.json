@@ -11,10 +11,10 @@
      "ai": ["Claude Code", "Gemini"], "url": "https://my-classifier-nine.vercel.app/", "img": "img/W2_분류기.jpg"},
     {"week": 3, "title": "출장비 정산 정리기 — 빈 폴더에서", "line": "출장비 엑셀을 끌어다 놓으면 내 처방대로 정리본과 바꾼 기록이 나옵니다. 파일은 브라우저를 떠나지 않습니다",
      "judgment": "숙박비 261만 원은 지우지도 고치지도 않고 표시만 했다. 오타인지 긴 출장인지 파일만으로는 알 수 없어서다. 숙박비를 총액으로 보기 때문에 짧은 출장의 비싼 1박은 놓친다",
-     "ai": ["Claude Code"], "url": "https://my-cleaner-sigma.vercel.app", "img": ""},
+     "ai": ["Claude Code"], "url": "https://my-cleaner-sigma.vercel.app", "img": "img/w3-출장비정리기.jpg"},
     {"week": 4, "title": "출장비 월간 보고 SQL 앱", "line": "추출한 엑셀 세 개(직원 · 출장 · 정산)를 넣으면 부서별 한 명당 출장비가 SQL과 함께 나옵니다",
      "judgment": "테이블 세 개를 정산 → 출장 → 직원 순으로 먼저 집계하고, 직원 테이블 기준으로 LEFT JOIN했다. 바로 조인하면 한 명당 금액이 20분의 1이 되고 1위가 바뀌었다. 숨겨 둔 정답과 여덟 부서 모두 같았다",
-     "ai": ["Claude Code (MCP · 서브에이전트)", "BigQuery", "Gemini"], "url": "https://my-window-mauve.vercel.app", "img": ""}
+     "ai": ["Claude Code (MCP · 서브에이전트)", "BigQuery", "Gemini"], "url": "https://my-app-beta-one-53.vercel.app/", "img": "img/w4-마케팅노트.jpg"}
   ],
   "proposal": null
 }
