@@ -15,9 +15,9 @@
     {"week": 4, "title": "출장비 월간 보고 SQL 앱", "line": "추출한 엑셀 세 개(직원 · 출장 · 정산)를 넣으면 부서별 한 명당 출장비가 SQL과 함께 나옵니다",
      "judgment": "테이블 세 개를 정산 → 출장 → 직원 순으로 먼저 집계하고, 직원 테이블 기준으로 LEFT JOIN했다. 바로 조인하면 한 명당 금액이 20분의 1이 되고 1위가 바뀌었다. 숨겨 둔 정답과 여덟 부서 모두 같았다",
      "ai": ["Claude Code (MCP · 서브에이전트)", "BigQuery", "Gemini"], "url": "https://my-app-beta-one-53.vercel.app/", "img": "img/w4-마케팅노트.jpg"},
-    {"week": 5, "title": "지표 사전", "line": "",
-     "judgment": "",
-     "ai": ["Claude Code"], "url": "https://metric-dictionary-navy.vercel.app/", "img": "img/w5-지표사전.jpg"}
+    {"week": 5, "title": "지표사전", "line": "지표마다 정의서 한 장. 기준월을 고르면 카드 일곱 개와 대시보드가 같은 정의서로 계산됩니다",
+     "judgment": "승인율 분모에 철회를 넣었다. 사전 문구대로 철회를 빼면 2026-12 승인율이 86.00%로 4.88%p 높아진다. 보증지원 금액은 기준월 말까지 대출이 실행된 발급만 셌다. 발급 전부를 세면 2026-12가 129.6억 원 많다. 대신 다음 달 대출이 실행되면 지난 달 값이 올라간다. 지표 이름과 계산을 코드에서 빼고 정의서 한 장에 모았다. 버린 정의와 버린 이유도 정의서에 남겼다",
+     "ai": ["Claude Code"], "url": "https://my-metrics2.vercel.app/", "img": "img/W5_my-metrics2.jpg"}
   ],
   "proposal": null
 }
